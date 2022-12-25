@@ -1,4 +1,4 @@
-const Index = () => {
+const MyAnimeList = () => {
   return (
     <div>
       <h1>titlu</h1>
@@ -6,4 +6,4 @@ const Index = () => {
   );
 }
 
-export default
+export default MyAnimeList
