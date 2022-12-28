@@ -50,6 +50,26 @@ export const siteData = {
       link: "/comunity",
       title: "Click here to join our comunity"
     },
+    {
+      text: "Industry",
+      link: "/industry",
+      title: "check out our team"
+    },
+    {
+      text: "Watch",
+      link: "/watch",
+      title: "check out the most watched anime of"
+    },
+    {
+      text: "Read",
+      link: "/read",
+      title: "Read our new collection of manga"
+    },
+    {
+      text: "Help",
+      link: "/help",
+      title: "Any other help, please contact us!"
+    },
     // {
     //   "an": "Anime",
     //   "mg": "Manga",
