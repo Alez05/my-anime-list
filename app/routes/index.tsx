@@ -10,7 +10,7 @@ const MyAnimeList = () => {
   const {navigationBar}:any = useLoaderData()
   return (
     <div>
-      <h1>titlu</h1>
+      <h1>MyAnimeList</h1>
       {navigationBar.map((nav:any, key:any) => {
         return (
           <div key={key}>
