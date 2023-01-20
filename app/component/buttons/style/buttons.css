@@ -1,0 +1,48 @@
+[data-crunch-icon] {
+  width: 161px;
+  height: 40px;
+  position: relative;
+  top:20px;
+  left: 70px;
+}
+
+[data-signin-btn] {
+  background-color: #182572;
+  border: 1px solid;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 14px;
+  float: right;
+  position: relative;
+  top:20px;
+  right: 70px;
+}
+[data-crunch-btn] {
+  background-color: #182572;
+  border: 1px solid;
+  color:#FFFFFF;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-radius: 14px;
+  float: left;
+  position: relative;
+}
+
+[data-user-icon] {
+  width: 15px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+[data-hr-line] {
+  position: absolute;
+  background-color: #4C5AABCC;
+  height: 0px;
+  width: 1300px;
+  left:70px;
+  top: 60px;
+}
