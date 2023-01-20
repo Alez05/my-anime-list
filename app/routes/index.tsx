@@ -1,26 +1,29 @@
-import { useLoaderData } from "@remix-run/react";
-import { siteData } from "~/config/data";
+import type { LinksFunction } from '@remix-run/node'
+import { headerLink, HeadEr, ButtOns, buttonLink } from '~/component'
+import { globalLink } from '~/component/global/global'
 
-export const loader = () => {
-  const {navigationBar} = siteData
-  return {navigationBar}
-}
+export const links: LinksFunction = () => [
+  ...headerLink(),
+  ...globalLink(),
+  ...buttonLink(),
+]
 
-const MyAnimeList = () => {
-  const {navigationBar}:any = useLoaderData()
-  return (
+const myAnimeList = () => {
+  return(
     <div>
-      <h1>MyAnimeList</h1>
-      {navigationBar.map((nav:any, key:any) => {
-        return (
-          <div key={key}>
-            <div>{nav.link}</div>
-            <div>{nav.title}</div>
-          </div>
-        )
-      })}
+      <HeadEr data-header>
+        <ButtOns>
+        <button data-signin-btn>Sign In
+        {/* <img alt="user" src="/user.svg" data-user-icon></img>Sign In */}
+      </button>
+        <img data-crunch-icon alt="crunch icon" src="/images/crunchyrolls.png"/>
+        <hr data-hr-line></hr>
+        </ButtOns>
+      </HeadEr>
+
     </div>
-  );
+  )
 }
 
-export default MyAnimeList
+
+export default myAnimeList
