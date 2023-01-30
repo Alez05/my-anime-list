@@ -15,7 +15,10 @@ const HeadEr= ({children}:any) => {
       <img data-luffy alt="luffy" src="/images/onepiece.png"/>
       <img data-banner alt='onepiece' src='/images/banner.png'/>
       <h1 data-title>The World's Largest Anime Collection</h1>
-      <h4 data-subtitle>Stream on desktop, mobile, gaming consoles, and other streaming devices.</h4>
+      <p data-subtitle>Stream on desktop, mobile, gaming consoles, and other streaming devices.</p>
+      <button data-middle-btn>
+          Start Your Free Trial
+      </button>
     </div>
   )
 }
