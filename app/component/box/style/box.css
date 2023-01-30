@@ -1,0 +1,148 @@
+[data-general1] {
+  position: absolute;
+  width: 1300px;
+  height: 165px;
+  left: 70px;
+  top: 660px;
+  background-color: #ffff;
+  /* box-shadow: 1px 1px 1px 1px ; */
+}
+
+[data-topanime] {
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 0px;
+  top: -50px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+/*attack on titan*/
+[data-titan] {
+  position: absolute;
+  width: 200px;
+  height: 165px;
+  left: 0px;
+  top: 0px;
+  border-radius: 21px;
+  display: flex;
+  padding: 4px;
+}
+
+[data-lr1title] {
+  position: absolute;
+  width: 150px;
+  height: 23px;
+  left: 220px;
+  top: 0px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000000;
+  }
+
+[data-lr1text] {
+  position: absolute;
+  width:170px;
+  height: 70px;
+  left: 220px;
+  top: 30px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #929292;
+}
+/*hunter x hunter*/
+[data-hunter] {
+  position: absolute;
+  width: 200px;
+  height: 165px;
+  left: 410px;
+  top: 0px;
+  padding: 4px;
+  border-radius: 21px;
+}
+
+[data-lr2title] {
+  position: absolute;
+  width: 125px;
+  height: 23px;
+  left: 630px;
+  top: 0px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000000;
+}
+
+[data-lr2text] {
+  position: absolute;
+  width: 150px;
+  height: 118px;
+  left: 630px;
+  top:30px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 19px;
+  color: #929292;
+}
+/*black clover*/
+
+[data-black] {
+  position: absolute;
+  width: 200px;
+  height: 165px;
+  left: 810px;
+  top: 0px;
+  border-radius: 21px;
+  padding: 4px;
+}
+
+[data-lr3title] {
+  position: absolute;
+  width: 117px;
+  height: 23px;
+  left: 1030px;
+  top: 0px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000000;
+}
+
+[data-lr3text] {
+  position: absolute;
+  width: 160px;
+  height: 118px;
+  left: 1030px;
+  top: 30px;
+  /*style*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 19px;
+  color: #929292;
+}
+
+/*second div*/
