@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 [data-header] {
   /* position:relative; */
@@ -55,3 +55,35 @@
   font-size: 15px;
   line-height: 23px;
 }
+
+[data-middle-btn] {
+  /* button position */
+  position: absolute;
+  width: 259px;
+  height: 49px;
+  left: 591px;
+  top: 500px;
+  border-radius: 14px;
+  /* text style */
+  background-color: #FFFFFF;
+  color: #03040E;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  cursor: pointer;
+}
+/*
+@media screen and (max-width: 600px) {
+  [data-title] {
+    font-size: 25px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  [data-luffy] {
+    float: left;
+  }
+} */
+
