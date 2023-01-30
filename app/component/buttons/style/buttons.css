@@ -4,6 +4,7 @@
   position: relative;
   top:20px;
   left: 70px;
+  background-color: #182572;
 }
 
 [data-signin-btn] {
@@ -18,15 +19,16 @@
   top:20px;
   right: 70px;
 }
+
+
 [data-crunch-btn] {
-  background-color: #182572;
+  position: relative;
   border: 1px solid;
   color:#FFFFFF;
   padding: 12px 12px;
   cursor: pointer;
   border-radius: 14px;
   float: left;
-  position: relative;
 }
 
 [data-user-icon] {
@@ -45,4 +47,29 @@
   width: 1300px;
   left:70px;
   top: 60px;
+}
+/*
+[data-middle-btn] {
+  position: absolute;
+  width: 259px;
+  height: 49px;
+  left: 591px;
+  top: 615px;
+  border-radius: 14px;
+} */
+
+[data-btn-text] {
+  position: absolute;
+  width: 211.62px;
+  height: 23px;
+  left: 615.22px;
+  top: 628px;
+  color: #03040E;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  font-variant: small-caps;
 }
