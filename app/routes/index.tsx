@@ -1,5 +1,5 @@
 import type { LinksFunction } from '@remix-run/node'
-import { headerLink, HeadEr, ButtOns, buttonLink, ShadowBox, boxLink, BodyBox, bodyLink } from '~/component'
+import { headerLink, HeadEr, ButtOns, buttonLink, ShadowBox, boxLink, BodyBox, bodyLink, footerLink, Footer } from '~/component'
 import { globalLink } from '~/component/global/global'
 
 export const links: LinksFunction = () => [
@@ -8,6 +8,7 @@ export const links: LinksFunction = () => [
   ...buttonLink(),
   ...boxLink(),
   ...bodyLink(),
+  ...footerLink(),
 ]
 
 const myAnimeList = () => {
@@ -19,6 +20,7 @@ const myAnimeList = () => {
       </HeadEr>
       <ShadowBox></ShadowBox>
       <BodyBox></BodyBox>
+      <Footer></Footer>
     </>
   )
 }

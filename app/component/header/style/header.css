@@ -23,9 +23,9 @@
 [data-title] {
   /*adjust*/
   position: absolute;
-  width: 852px;
+  width: 850px;
   height: 59px;
-  left: 293px;
+  left: 295px;
   top: 360px;
   color:#FFFFFF;
 
@@ -40,11 +40,14 @@
 [data-subtitle] {
   /*adjust it*/
   position: absolute;
-  width: 660px;
+  width: 510px;
   height: 23px;
-  left: 475px;
+  left: 465px;
   top: 430px;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /*fonts, may change*/
   font-family: 'Roboto';
