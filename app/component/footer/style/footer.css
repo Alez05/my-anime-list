@@ -55,13 +55,13 @@
 }
 /*devices*/
 [data-laptop] {
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
   position: absolute;
   left: 600px;
   width: 77px;
   height: 55px;
   top: 285px;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   display: inline-block;
   stroke-width: 0px;
   stroke: currentColor;
@@ -75,8 +75,8 @@
   left: 710px;
   top: 285px;
   border-radius: 0px;
-  background: #FFFFFF;
-  color:#ffff;
+  /* background: #FFFFFF; */
+  /* color:#ffff; */
 }
 
 [data-phone] {
@@ -86,7 +86,7 @@
   left: 800px;
   top: 285px;
   border-radius: 0px;
-  background: #ffff;
+  /* background: #ffff; */
 }
 
 /*social platforms*/
